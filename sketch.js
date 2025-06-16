@@ -132,7 +132,7 @@ function draw() {
   textAlign(CENTER, CENTER);
   for (let lettera of lettere) {
     let x = lettera.colonna * 100;
-    let y = lettera.riga * 100;
+    let y = lettera.riga * 100-5;
     noStroke();
     strokeWeight(0);
     fill("#243e96");
